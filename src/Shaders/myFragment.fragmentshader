@@ -1,0 +1,15 @@
+
+
+uniform float t;
+
+varying vec2 coords;
+varying vec4 vcolor;
+
+void main()
+{
+    float i = 0.05;
+    //gl_FragColor = vec4(0.0, 0.0, 0.0, i);
+    gl_FragColor = vcolor;
+
+}
+

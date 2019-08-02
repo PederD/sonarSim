@@ -1,0 +1,15 @@
+
+attribute vec4 vertices1;
+//attribute vec4 vertices1;
+attribute vec4 colors;
+
+varying vec2 coords;
+varying vec4 vcolor;
+
+void main()
+{
+    gl_Position = vertices1;
+
+    coords = vertices1.xy;
+    vcolor = colors;
+}
